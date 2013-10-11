@@ -11,6 +11,7 @@ Met de `journeys`-resource kun je een reis plannen.
 |-----:|:-------------|
 | **before** | Bevat `1`. |
 | **sequence** | Bevat `1`. |
+| **byBus** | Bevat een `boolean` die aangeeft of in de reis gebruik gemaakt mag worden van een bus. |
 | **byFerry** | Bevat een `boolean` die aangeeft of in de reis gebruik gemaakt mag worden van een veerboot. |
 | **bySubway** | Bevat een `boolean` die aangeeft of in de reis gebruik gemaakt mag worden van een metro. |
 | **byTram** | Bevat een `boolean` die aangeeft of in de reis gebruik gemaakt mag worden van een tram. |
