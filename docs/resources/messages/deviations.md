@@ -12,7 +12,7 @@ opgehaald worden.
 | Naam | Omschrijving |
 |-----:|:-------------|
 | **lang** | Bevat "nl-NL" in alle gevallen. Zelfs als de telefoon eigenlijk op Engels is ingesteld. |
-| **rows** | Bevat het maximum aantal storingen dat opgehaald moet worden. |
+| **rows** | Bevat het maximum aantal storingen dat opgehaald moet worden. (Default: 100)|
 | **start** | Bevat een getal waarvandaan gestart moet worden met het ophalen van storingen. |
 | **q** | Bevat een zoekterm. |
 
