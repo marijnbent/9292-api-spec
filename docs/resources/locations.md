@@ -12,12 +12,12 @@ die overeenkomen met de zoekopdracht (`q`).
 | Naam | Omschrijving |
 |-----:|:-------------|
 | **lang** | Bevat "nl-NL" in alle gevallen. Zelfs als de telefoon eigenlijk op Engels is ingesteld. |
-| **q** | Bevat de zoekopdracht. Bv. `"amsterd"`. (optioneel) |
+| **q** | Bevat de zoekopdracht. Bv. `"amsterd"`. |
 | **latlong** | Bevat een combinatie van de latitude en longitude coördinaten (`52.*, 5.*`). (optioneel) |
-| **includeStation** | Onbekend. Standaard = `false`. |
-| **type** | Bevat een combinatie van `location type`s (`station,stop,poi`). Zie `types.md`. (optioneel) |
+| **includeStation** | Onbekend. Standaard = `false`. (optioneel) |
+| **type** | Bevat een combinatie van `location types` (`station,stop,poi`). Zie `types.md`. (optioneel) |
 | **range** | Niet precies bekend, waarschijnlijk het bereik van de `latlong` parameter. (optioneel) |
-| **rows** | Maximum aantal locations dat geretourneerd moet worden. |
+| **rows** | Maximum aantal locations dat geretourneerd moet worden. Maximaal en standaard 10. (optioneel) |
 
 ## Response
 
