@@ -16,6 +16,8 @@
 * [`line`](#line)
 * [`location`](#location)
 	* [`station`](#location_station)
+	* [`stop`](#location_stop)
+  	* [`street`](#location_street)
 	* [`place`](#location_place)
 	* [`poi`](#location_poi)
 * [`ludMessage`](#lud_message)
@@ -244,6 +246,26 @@
 | **stationType** | Bevat het type station (zie `types.md` voor meer informatie). |
 | **place** | Bevat een `location` met als `type=place`, indien beschikbaar. |
 | **urls** | Bevat een `urls` object. |
+
+---
+
+<a id="location_stop"></a>
+## Object: `location` -> `stop`
+
+| Naam | Omschrijving |
+|-----:|:-------------|
+| **stopType** | Type van de halte. Bijv. `Bushalte` |
+| **place** | Bevat een `location` met als `type=place`, indien beschikbaar. |
+| **urls** | Bevat een `urls` object. |
+
+---
+
+<a id="location_street"></a>
+## Object: `location` -> `street`
+
+| Naam | Omschrijving |
+|-----:|:-------------|
+| **place** | Bevat een `location` met als `type=place`, indien beschikbaar. |
 
 ---
 
