@@ -22,7 +22,7 @@ Met de `journeys`-resource kun je een reis plannen.
 | **searchType** | Bevat een `searchType` (zie `types.md`) die aangeeft of `dateTime` een vertrek- of een aankomst-datum bevat. |
 | **interchangeTime** | Bevat `standard`. |
 | **after** | Bevat `5`. |
-| **to** | Bevat het `location id` van de bestemming. |
+| **to** | Bevat het `location id` van de bestemming. Je kunt deze eenvoudig vinden als je op 9292.nl de reisplanner gebruikt. In de url krijg je dan de `location id`'s te zien van beide locaties. |
 
 ## Response
 
@@ -39,8 +39,7 @@ Met de `journeys`-resource kun je een reis plannen.
 
 ### Request
 
-	GET /0.1/journeys?before=1&sequence=1&byFerry=true&bySubway=true&byBus=true&byTram=true&byTrain=true&lang=nl-NL&from=station-amsterdam-centraal&dateTime=2013-01-21T1754&searchType=departure&interchangeTime=standard&after=5&to=station-eindhoven HTTP/1.1
-	Host: api.9292.nl
+	GET http://api.9292.nl/0.1/journeys?before=1&sequence=1&byFerry=true&bySubway=true&byBus=true&byTram=true&byTrain=true&lang=nl-NL&from=station-amsterdam-centraal&dateTime=2013-01-21T1754&searchType=departure&interchangeTime=standard&after=5&to=station-eindhoven HTTP/1.1
 
 ### Response
 
